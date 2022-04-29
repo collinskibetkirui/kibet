@@ -1,0 +1,17 @@
+let acc = document.getElementById('acc');
+
+let add = document.getElementById('add');
+
+let pur = document.getElementById('pur');
+
+acc.addEventListener('click', () => {
+    alert('No BTC detected!, kindly top up your account.');
+})
+
+add.addEventListener('click', () => {
+    window.location.assign('payment.html');
+})
+
+pur.addEventListener('click', () => {
+    alert('No purchased items please add funds and purchase available items on shop list');
+})
